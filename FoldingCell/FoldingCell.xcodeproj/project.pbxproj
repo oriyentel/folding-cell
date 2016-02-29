@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03DB4A641C84B5DB00FD3228 /* FoldingCellSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB4A631C84B5DB00FD3228 /* FoldingCellSubclass.swift */; };
+		03DB4A661C84B8AC00FD3228 /* TableViewControllerSubclass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DB4A651C84B8AC00FD3228 /* TableViewControllerSubclass.swift */; };
 		847A58081C294F750028FB84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847A58071C294F750028FB84 /* AppDelegate.swift */; };
 		847A580D1C294F750028FB84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 847A580B1C294F750028FB84 /* Main.storyboard */; };
 		847A580F1C294F750028FB84 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 847A580E1C294F750028FB84 /* Assets.xcassets */; };
@@ -52,6 +54,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		03DB4A631C84B5DB00FD3228 /* FoldingCellSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoldingCellSubclass.swift; sourceTree = "<group>"; };
+		03DB4A651C84B8AC00FD3228 /* TableViewControllerSubclass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewControllerSubclass.swift; sourceTree = "<group>"; };
 		840B984B1C33FE660081B926 /* FoldingCellFramework.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FoldingCellFramework.h; sourceTree = "<group>"; };
 		840B984D1C33FE660081B926 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		847A58041C294F750028FB84 /* FoldingCell.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FoldingCell.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -96,6 +100,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03DB4A671C84B8BC00FD3228 /* Original Demo */ = {
+			isa = PBXGroup;
+			children = (
+				847A581E1C29500B0028FB84 /* MainTableViewController.swift */,
+				84CDB1591C2D416400FCD7C8 /* DemoCell.swift */,
+			);
+			name = "Original Demo";
+			sourceTree = "<group>";
+		};
+		03DB4A681C84B8D400FD3228 /* Oriyentel Demo */ = {
+			isa = PBXGroup;
+			children = (
+				03DB4A631C84B5DB00FD3228 /* FoldingCellSubclass.swift */,
+				03DB4A651C84B8AC00FD3228 /* TableViewControllerSubclass.swift */,
+			);
+			name = "Oriyentel Demo";
+			sourceTree = "<group>";
+		};
 		840B984A1C33FE660081B926 /* FoldingCellFramework */ = {
 			isa = PBXGroup;
 			children = (
@@ -127,15 +149,15 @@
 		847A58061C294F750028FB84 /* FoldingCell */ = {
 			isa = PBXGroup;
 			children = (
-				847A58191C294FAB0028FB84 /* FoldingCell */,
-				8499F5D21C2A83D90027D5D2 /* Fonts */,
-				847A581E1C29500B0028FB84 /* MainTableViewController.swift */,
-				84CDB1591C2D416400FCD7C8 /* DemoCell.swift */,
 				847A58071C294F750028FB84 /* AppDelegate.swift */,
 				847A580B1C294F750028FB84 /* Main.storyboard */,
+				847A58191C294FAB0028FB84 /* FoldingCell */,
+				03DB4A681C84B8D400FD3228 /* Oriyentel Demo */,
+				03DB4A671C84B8BC00FD3228 /* Original Demo */,
 				847A580E1C294F750028FB84 /* Assets.xcassets */,
 				847A58101C294F750028FB84 /* LaunchScreen.storyboard */,
 				847A58131C294F750028FB84 /* Info.plist */,
+				8499F5D21C2A83D90027D5D2 /* Fonts */,
 			);
 			path = FoldingCell;
 			sourceTree = "<group>";
@@ -287,8 +309,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				03DB4A641C84B5DB00FD3228 /* FoldingCellSubclass.swift in Sources */,
 				847A58081C294F750028FB84 /* AppDelegate.swift in Sources */,
 				847A581F1C29500B0028FB84 /* MainTableViewController.swift in Sources */,
+				03DB4A661C84B8AC00FD3228 /* TableViewControllerSubclass.swift in Sources */,
 				84CDB15A1C2D416400FCD7C8 /* DemoCell.swift in Sources */,
 				847A581B1C294FAB0028FB84 /* FoldingCell.swift in Sources */,
 			);

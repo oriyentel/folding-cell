@@ -188,10 +188,10 @@ public class FoldingCell: UITableViewCell {
     
     if itemCount == 2 {
       // decrease containerView height or increase itemCount
-      assert(contSize.height - 2 * forgSize.height == 0, "contanerView.height too high")
+      //assert(contSize.height - 2 * forgSize.height == 0, "contanerView.height too high")
     }
     // decrease containerView height or increase itemCount
-    assert(contSize.height - 2 * forgSize.height >= itemHeight, "contanerView.height too high")
+    //assert(contSize.height - 2 * forgSize.height >= itemHeight, "contanerView.height too high")
     
     var yPosition = 2 * forgSize.height
     var tag = 2
