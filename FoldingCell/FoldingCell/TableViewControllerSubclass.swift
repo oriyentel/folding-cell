@@ -49,7 +49,7 @@ class TableViewControllerSubclass: UITableViewController {
 
     
     override func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("FoldingCellSubclass", forIndexPath: indexPath) as! FoldingCell
+        let cell = tableView.dequeueReusableCellWithIdentifier("FoldingCellSubclass", forIndexPath: indexPath) as! FoldingCellSubclass
         
         // Configure the cell here
 
